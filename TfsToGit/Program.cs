@@ -28,33 +28,6 @@ namespace TfsToGit
 
             RepositoryMigrator.Migrate(teamProjectCollection, workspaces, settings);
         }
-
-        private static string GetPassword()
-        {
-            Console.WriteLine("Enter password:");
-
-            ConsoleKeyInfo key;
-            var pwd = new StringBuilder();
-
-            while ((key = Console.ReadKey(true)).Key != ConsoleKey.Enter)
-            {
-                if (key.Key != ConsoleKey.Backspace)
-                {
-                    pwd.Append(key.KeyChar);
-                    Console.Write("*");
-                }
-                else
-                {
-                    if (key.Key == ConsoleKey.Backspace && pwd.Length > 0)
-                    {
-                        pwd.Remove(pwd.Length - 1, 1);
-                        Console.Write("\b \b");
-                    }
-                }
-            }
-
-            return pwd.ToString();
-        }
     }
 }
 

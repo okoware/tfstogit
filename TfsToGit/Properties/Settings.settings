@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TfsToGit.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="TfsExecutablePath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe</Value>
+    </Setting>
+    <Setting Name="RobocopyPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Windows\System32\Robocopy.exe</Value>
+    </Setting>
+    <Setting Name="GitPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Program Files\Git\cmd\git.exe</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
